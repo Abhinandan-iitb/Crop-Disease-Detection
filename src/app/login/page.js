@@ -31,7 +31,7 @@ const LoginPage = () => {
       if (res.error) {
         return toast.error(res.error);
       }
-      router.replace("/diagnose");
+      window.location.href = "/diagnose";
     } catch (error) {
       toast.error(error.message);
     }

@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
         <Providers>
-          <header className="sticky top-0 w-full h-20 bg-transparent backdrop-blur-md flex items-center justify-between shadow-lg p-2">
+          <header className="sticky top-0 w-full h-20 bg-background flex items-center justify-between shadow-lg p-2">
             <Link href={"/"} className="flex items-center gap-2">
               <Scan className="w-8 h-8" />
               <h1 className="text-3xl font-bold">Diagnose</h1>
